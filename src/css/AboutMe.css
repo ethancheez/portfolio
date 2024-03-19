@@ -1,0 +1,42 @@
+.containerBlock {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+#AboutMe {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,56,0.0760679271708683) 59%);
+}
+
+#aboutMe-col1 {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#bigName {
+    font-size: 80px;
+}
+
+#iconDiv {
+    margin-top: 2em;
+}
+
+.icon {
+    margin-right: 2em;
+}
+
+.email-icon {
+    color: #e6eb91;
+}
+
+.linkedin-icon {
+    color: #0077B5;
+}
+
+.github-icon {
+    color: #8375ff;
+}
+
+#iconDiv a :hover {
+    padding-bottom: 2px;
+}

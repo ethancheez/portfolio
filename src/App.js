@@ -1,20 +1,23 @@
 import React from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import ProjectsPage from "./pages/ProjectsPage";
-import PapersPage from "./pages/PapersPage";
-import ResumePage from "./pages/ResumePage";
+import NavbarComponent from "./components/NavbarComponent";
+import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
+import Education from "./components/Education";
+import Work from "./components/Work";
+import GoBackUp from "./components/misc/GoBackUp";
 
 function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />}></Route>
-        <Route path="/projects" element={<ProjectsPage />}></Route>
-        <Route path="/papers" element={<PapersPage />}></Route>
-        <Route path="/resume" element={<ResumePage />}></Route>
-      </Routes>
-    </HashRouter>
+    <>
+      <div id="#">
+        <NavbarComponent />
+        <AboutMe />
+        <Skills />
+        <Education />
+        <Work />
+      </div>
+      <GoBackUp />
+    </>
   );
 }
 

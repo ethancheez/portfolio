@@ -1,0 +1,17 @@
+#Skills {
+    background: rgb(7,2,14);
+    background: radial-gradient(circle, rgba(7,2,14,0.5690651260504201) 38%, rgba(0,0,0,0.26094187675070024) 64%, rgba(76,43,93,0.16290266106442575) 86%);
+}
+
+#Skills .row .col {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon h4 {
+    font-weight: bold;
+}

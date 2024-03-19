@@ -1,0 +1,25 @@
+#Education {
+    background: rgb(9,2,14);
+background: linear-gradient(174deg, rgba(9,2,14,0.938813025210084) 12%, rgba(74,40,99,0.4290091036414566) 67%, rgba(74,40,99,0.14049369747899154) 86%);
+}
+
+#educationHeader {
+    font-size: 60px;
+}
+
+.educationCard p {
+    color: white;
+}
+
+.educationCard span {
+    color: white;
+}
+
+
+.educationCard ul {
+    color: lightgray;
+}
+
+.eduSummary {
+    color: lightgray !important;
+}

@@ -1,0 +1,15 @@
+#workCardDiv .col {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#workCardDiv .card-img-top {
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 1em;
+}
+
+#workCardDiv .redirect-icon {
+    position: absolute;
+    right: 0.5rem;
+}
