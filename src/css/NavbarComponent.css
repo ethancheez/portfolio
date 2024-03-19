@@ -1,0 +1,22 @@
+#main-navbar {
+    background-color: black !important;
+}
+
+#main-navbar .navbar-brand {
+    font-size: 1.8rem;
+}
+
+#main-navbar .navbar-brand img {
+    margin-right: 1.5rem;
+}
+
+#main-navbar .navbar-nav a {
+    color: white;
+    font-weight: 400 !important;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+}
+
+#main-navbar .navbar-nav a svg {
+    margin-right: 0.5rem;
+}
