@@ -1,3 +1,8 @@
+#Work {
+    background: rgb(45,26,59);
+    background: linear-gradient(192deg, rgba(45,26,59,0.19931722689075626) 64%, rgba(71,35,89,0.5242471988795518) 93%);
+}
+
 #workCardDiv .col {
     margin-bottom: 1em;
     margin-top: 1em;

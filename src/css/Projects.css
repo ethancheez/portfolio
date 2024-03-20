@@ -1,7 +1,36 @@
+#Projects {
+    background: rgb(45,38,55);
+    background: linear-gradient(322deg, rgba(45,38,55,0.5886729691876751) 20%, rgba(0,0,0,0.26094187675070024) 53%, rgba(72,27,94,0.4906337535014006) 80%);
+}
+
 #Projects .card {
     background-color: rgb(7, 7, 43);
     color: white;
     border-color: rgb(64, 21, 104);
     border-radius: 1em;
     opacity: 0.9;
+}
+
+#Projects .card:hover {
+    border-radius: 1em !important;
+    border-color: rgb(109, 79, 138) !important;
+    cursor: default;
+}
+
+#Projects .card p {
+    text-align: justify;
+}
+
+#Projects .card .col-sm-9 {
+    padding-bottom: 3em;
+}
+
+#Projects .card .btn-row {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+#Projects .card .btn {
+    margin-left: 1em;
 }

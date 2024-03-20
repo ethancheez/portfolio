@@ -3,6 +3,8 @@ import { Container, Nav, Navbar, Image } from "react-bootstrap";
 import {
   Person,
   Kanban,
+  Motherboard,
+  FileText,
 } from "react-bootstrap-icons";
 import "css/NavbarComponent.css";
 
@@ -49,6 +51,14 @@ const NavbarComponent = () => {
             <Nav.Link href="#Work">
               <Kanban />
               Work Experience
+            </Nav.Link>
+            <Nav.Link href="#Projects">
+              <Motherboard />
+              Projects
+            </Nav.Link>
+            <Nav.Link href="#Papers">
+              <FileText />
+              Papers
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

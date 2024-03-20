@@ -160,49 +160,67 @@ const _PROJECTS = [
     title: "LahainaSim",
     completionDate: "2023-11-18", // "Present" if in progress
     imageURL: "img/projects/lahainasim.png",
-    githubURL: "",
+    githubURL: "https://github.com/ethancheez/LahainaSim",
     website: "",
     summary: "Meteor application developed during the 2023 Hawaiʻi Annual Code Challenge (HACC). Lahaina Sim is an interactive web application designed to foster creativity and community engagement in the aftermath of the devastating wildfires that swept through Lahaina. The project won 1st place overall in the Coded Challenge and won the People's Choice award.",
   },
   {
     title: "Artemis CubeSat Kit",
     completionDate: "2023-12-31", // "Present" if in progress
-    imageURL: "",
-    githubURL: "",
-    website: "",
-    summary: "Primary developer for the flight software of the 1U CubeSat in both COSMOS and F Prime.",
+    imageURL: "img/projects/keao-cubesat.jpg",
+    githubURL: "https://github.com/fprime-community/fprime-artemis-cubesat/tree/dev",
+    website: "https://franceszhu.space/artemis-cubesat-kit",
+    summary: "A low-cost 1U CubeSat designed for educational outreach. The spacecraft was designed to have space flight capabilities, including onboard computing, radio communications, and dynamic sensing. I was a primary developer for the flight software of the 1U CubeSat in both the COSMOS and F Prime frameworks.",
   },
   {
     title: "Deployment of F Prime using the Zephyr Real Time Operating System",
     completionDate: "2023-08-04", // "Present" if in progress
-    imageURL: "",
-    githubURL: "",
+    imageURL: "img/projects/fprime-x-zephyr.png",
+    githubURL: "https://github.com/fprime-community/fprime-zephyr-led-blinker",
     website: "",
     summary: "The F Prime flight software framework was expanded to work with the Zephyr Real-time Operating System (ZephyrRTOS). A Zephyr OS abstraction layer was created to allow the core F Prime components to properly execute.",
   },
   {
     title: "Deployment of F Prime on Baremetal Embedded Systems",
     completionDate: "2023-08-04", // "Present" if in progress
-    imageURL: "",
-    githubURL: "",
-    website: "",
-    summary: "",
+    imageURL: "img/projects/fprime-logo.png",
+    githubURL: "https://github.com/fprime-community/fprime-baremetal-reference",
+    website: "https://fprime-community.github.io/fprime-tutorial-arduino-blinker/",
+    summary: "Created a flight software reference for baremetal embedded systems using NASA JPL's F Prime flight software framework. The reference included a deployment with minimal, but essential components that are compatible with hardware with limited resources. Such boards include PJRC's Teensy boards, Raspberry Pi Pico (RP2040), ESP32, Feather M0, and much more. Ultimately, it was determined that the minimum system requirements for a feasible F Prime deployment is 150 KB of FLASH memory and 30 KB of RAM.",
   },
   {
     title: "Ke Ao: A Low-Cost 1U CubeSat for Aerospace Education and Research in Hawai’i",
     completionDate: "2021-01-01", // "Present" if in progress
-    imageURL: "",
-    githubURL: "",
-    website: "",
+    imageURL: "img/projects/keao-cubesat.jpg",
+    githubURL: "https://github.com/ethancheez/KeAo-Artemis",
+    website: "https://www.teamlaniakea.com/",
     summary: "Contributed to a 1U CubeSat that will be launched into space and is capable of remote sensing. I was the software lead of the project who managed the flight software development and radio communication testing using UHF radios.",
   },
   {
     title: "Lightweight Wearable Device to Improve Safety for the Blind",
     completionDate: "2019-05-01", // "Present" if in progress
-    imageURL: "",
+    imageURL: "img/projects/stem-capstone.png",
     githubURL: "",
-    website: "",
+    website: "https://ethancheez.github.io/STEM-Capstone-Project/",
     summary: "Built a sensing device using Arduino to help improve the safety for the Blind. This was recognized at the 62nd Hawaii State Science and Engineering Fair.",
+  },
+];
+
+const _PAPERS = [
+  {
+    title: "Flight Software Architectures for Safe and Sustainable Missions",
+    pdfURL: "papers/Flight_Software_Architectures_for_Safe_and_Sustainable_Missions.pdf",
+    abstract: "Flight software implementation into satellites is critical for a mission’s success. This paper discusses the requirements for a reliable flight software framework and how current frameworks implement these standards. Ideally, a safe and sustainable framework must have modularity, portability, a small footprint, unit testing capabilities, a standardized packet protocol, and documentation. Of the existing frameworks analyzed, COSMOS and F Prime were implemented into the HyTI and Artemis CubeSat kit. Additionally, AES encryption was implemented and analyzed with the COSMOS framework and tested with flight hardware for the HyTI mission. Results show that cryptography does not affect the likelihood of packet loss. Since COSMOS was determined to not meet all of the flight software requirements defined by the ideal architecture, the framework will be improved after the delivery of HyTI.",
+  },
+  {
+    title: "The Feasibility of Radio Frequency Attacks on Spacecraft and Ground Data Systems",
+    pdfURL: "papers/The_Feasibility_of_Radio_Frequency_Attacks_on_Spacecraft_and_Ground_Data_Systems.pdf",
+    abstract: "A study was performed on the feasibility of a denial-of-service (DoS) attack on ground station networks for spacecraft telecommunications. Any spacecraft uplink and downlink are conducted through radio frequency (RF) and various modulation protocols, all of which do not have origin and destination identification characteristics. To simulate a spacecraft to ground station network, the tests were conducted using the ground data system from the F Prime open-source flight software and embedded systems framework developed by NASA’s Jet Propulsion Laboratory (JPL). Short range ultra-high frequency (UHF) radios operating at 915 MHz were used to simulate a DoS attack on a ground station. As a result, the communication protocol should be designed such that the software can discriminate between legitimite and malformed packets. Attempts to mitigate packet loss from RFnoise was explored, including modifying preamble lengths, synchronization words, and hardware encryption.",
+  },
+  {
+    title: "Ferrofluid Controlled Liquid Metal IRS Unit Cell",
+    pdfURL: "papers/Ferrofluid_Controlled_Liquid_Metal_IRS_Unit_Cell.pdf",
+    abstract: "A functioning design for an intelligent reflective surface (IRS) was achieved between two states of a ferrofluid-actuated Galinstan slug. Reflection angle control from -13.3° to 90° was calculated to be feasible using the Generalized Snell's Law at a frequency of 8.3 GHz with an AABB unit cell configuration.",
   },
 ];
 
@@ -210,6 +228,7 @@ const _PORTFOLIO = {
   _BIO,
   _WORK,
   _PROJECTS,
+  _PAPERS,
 };
 
 export default _PORTFOLIO;
