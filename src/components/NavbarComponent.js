@@ -4,9 +4,9 @@ import {
   Person,
   Kanban,
 } from "react-bootstrap-icons";
-import "../css/NavbarComponent.css";
+import "css/NavbarComponent.css";
 
-import _PORTFOLIO from "../_includes/portfolio";
+import _PORTFOLIO from "_includes/portfolio";
 
 const NavbarComponent = () => {
   const [scrollTop, setScrollTop] = useState(0);

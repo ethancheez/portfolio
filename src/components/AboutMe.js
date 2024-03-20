@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Linkedin, EnvelopeAtFill, Github } from "react-bootstrap-icons";
-import "../css/AboutMe.css";
+import "css/AboutMe.css";
 
-import _PORTFOLIO from "../_includes/portfolio";
+import _PORTFOLIO from "_includes/portfolio";
 
 const AboutMe = () => {
   return (

@@ -20,3 +20,7 @@
 #main-navbar .navbar-nav a svg {
     margin-right: 0.5rem;
 }
+
+#main-navbar:hover {
+    opacity: 0.98 !important;
+}

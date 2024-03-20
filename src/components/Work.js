@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import WorkCard from "./work/WorkCard";
-import "../css/Work.css"
+import "css/Work.css"
 
-import _PORTFOLIO from "../_includes/portfolio";
+import _PORTFOLIO from "_includes/portfolio";
 
 const Work = () => {
   return (

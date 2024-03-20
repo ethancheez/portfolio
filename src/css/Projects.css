@@ -1,0 +1,7 @@
+#Projects .card {
+    background-color: rgb(7, 7, 43);
+    color: white;
+    border-color: rgb(64, 21, 104);
+    border-radius: 1em;
+    opacity: 0.9;
+}

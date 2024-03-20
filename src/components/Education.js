@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import EducationCard from "./education/EducationCard";
-import "../css/Education.css";
+import "css/Education.css";
 
-import _PORTFOLIO from "../_includes/portfolio";
+import _PORTFOLIO from "_includes/portfolio";
 
 const Education = () => {
   return (

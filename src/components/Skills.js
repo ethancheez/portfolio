@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import "../css/Skills.css";
+import "css/Skills.css";
 
 const Skills = () => {
   const iconDimensions = {

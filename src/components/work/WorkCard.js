@@ -24,7 +24,7 @@ const WorkCard = (workObj) => {
           <Card.Title>{work.company}</Card.Title>
           <Card.Subtitle>{work.position}</Card.Subtitle>
           <Card.Text>{workDuration}</Card.Text>
-          <Card.Text>{work.summary}</Card.Text>
+          <Card.Text className="summary">{work.summary}</Card.Text>
         </Card.Body>
         {work.website !== "" ? (
           <a
