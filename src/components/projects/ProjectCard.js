@@ -19,7 +19,7 @@ const ProjectCard = (projectObj) => {
           <Col sm={3}>
             <Image src={imageURL} className="img-fluid" />
           </Col>
-          <Col sm={9} style={{ paddingRight: "2em" }}>
+          <Col sm={9}>
             <h4 className="text-center" style={{ marginTop: "1em" }}>
               {project.title}
             </h4>

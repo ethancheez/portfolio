@@ -1,0 +1,13 @@
+#Footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #09050C;
+}
+
+#footer-icons {
+    text-align: right;
+}
+
+#Footer .icon {
+    color: lightgray;
+}

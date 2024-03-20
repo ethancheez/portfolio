@@ -23,6 +23,8 @@
 
 #Projects .card .col-sm-9 {
     padding-bottom: 3em;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 #Projects .card .btn-row {
