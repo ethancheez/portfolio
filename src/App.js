@@ -8,6 +8,7 @@ import GoBackUp from "./components/misc/GoBackUp";
 import Projects from "./components/Projects";
 import Papers from "components/Papers";
 import Footer from "components/misc/Footer";
+import OpenAnimation from "components/misc/OpenAnimation";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Footer />
       </div>
       <GoBackUp />
+      <OpenAnimation />
     </>
   );
 }

@@ -37,7 +37,7 @@ const NavbarComponent = () => {
       style={{ opacity: navbarOpacity }}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="#">
           <Image src={_PORTFOLIO._BIO.profilePicture} height="50px" roundedCircle />
           {_PORTFOLIO._BIO.name}
         </Navbar.Brand>

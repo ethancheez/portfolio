@@ -1,0 +1,105 @@
+body {
+  animation-name: preventScroll;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3.5s;
+}
+
+@keyframes preventScroll {
+  0% {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  100% {
+    overflow-y: scroll;
+    overflow-y: scroll;
+  }
+}
+
+#OpenAnimation {
+  position: fixed;
+  background: linear-gradient(black 25%, transparent), url("img/background.jpg") no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.95;
+  transform: translateY(-200%);
+  animation-name: slideUpOpening;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+}
+
+@keyframes slideUpOpening {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(-200%);
+  }
+}
+
+#rocketImg {
+  position: fixed;
+  z-index: 1000000;
+  bottom: 2em;
+  left: 0;
+  animation: rocketLaunch 2.5s infinite ease-in;
+  animation-iteration-count: 1;
+  visibility: hidden;
+}
+
+@keyframes rocketLaunch {
+  0% {
+    visibility: visible;
+    transform: translateX(0) rotate(-30deg);
+  }
+  20% {
+    transform: translate3d(0vw, -10vh, 0) rotate(-20deg);
+  }
+  100% {
+    transform: translate3d(130vw, -130vh, 0) rotate(60deg);
+    visibility: hidden;
+  }
+}
+
+.slide-in {
+  transform: translateX(0);
+  animation-name: slideInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.7s;
+}
+
+.slide-out {
+  transform: translateX(200%);
+  animation-name: slideOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.4s;
+}
+
+@keyframes slideInOpacity {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutOpacity {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
