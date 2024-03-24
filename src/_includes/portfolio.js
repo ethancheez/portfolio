@@ -55,9 +55,9 @@ const _WORK = [
     _id: 7,
     company: "Hawaii Space Flight Laboratory",
     position: "Graduate Research Assistant",
-    website: "https://www.hsfl.hawaii.edu/",
+    website: "http://www.hsfl.hawaii.edu/",
     logoURL:
-      "https://www.hsfl.hawaii.edu/wp-content/uploads/2019/01/cropped-cropped-unnamed-2.png",
+      "http://www.hsfl.hawaii.edu/wp-content/uploads/2019/01/cropped-cropped-unnamed-2.png",
     startDate: "2023-01-01",
     endDate: "2023-12-15",
     summary:
@@ -87,9 +87,9 @@ const _WORK = [
     _id: 5,
     company: "Hawaii Space Flight Laboratory",
     position: "Satellite Software Assistant",
-    website: "https://www.hsfl.hawaii.edu/",
+    website: "http://www.hsfl.hawaii.edu/",
     logoURL:
-      "https://www.hsfl.hawaii.edu/wp-content/uploads/2019/01/cropped-cropped-unnamed-2.png",
+      "http://www.hsfl.hawaii.edu/wp-content/uploads/2019/01/cropped-cropped-unnamed-2.png",
     startDate: "2022-01-01",
     endDate: "2022-12-31",
     summary:
