@@ -57,7 +57,7 @@ const _WORK = [
     position: "Graduate Research Assistant",
     website: "http://www.hsfl.hawaii.edu/",
     logoURL:
-      "http://www.hsfl.hawaii.edu/wp-content/uploads/2019/01/cropped-cropped-unnamed-2.png",
+      "img/work/hsfl.png",
     startDate: "2023-01-01",
     endDate: "2023-12-15",
     summary:
@@ -76,7 +76,7 @@ const _WORK = [
     position: "Small Scale Flight Software Engineer Intern",
     website: "https://www.jpl.nasa.gov/",
     logoURL:
-      "https://m.media-amazon.com/images/I/41nRavye9CL._AC_UF894,1000_QL80_.jpg",
+      "img/work/jpl.jpg",
     startDate: "2023-05-15",
     endDate: "2023-08-04",
     summary:
@@ -89,7 +89,7 @@ const _WORK = [
     position: "Satellite Software Assistant",
     website: "http://www.hsfl.hawaii.edu/",
     logoURL:
-      "http://www.hsfl.hawaii.edu/wp-content/uploads/2019/01/cropped-cropped-unnamed-2.png",
+      "img/work/hsfl.png",
     startDate: "2022-01-01",
     endDate: "2022-12-31",
     summary:
@@ -107,7 +107,7 @@ const _WORK = [
     position: "Instructional Computing Assistant",
     website: "",
     logoURL:
-      "https://manoa.hawaii.edu/speakers/wp-content/uploads/logo-1-1030x1030.png",
+      "img/work/uhm.png",
     startDate: "2021-05-01",
     endDate: "2023-08-01",
     summary:
@@ -120,7 +120,7 @@ const _WORK = [
     position: "Software Engineer Intern",
     website: "https://www.datahouse.com/",
     logoURL:
-      "https://scontent.fhnl1-1.fna.fbcdn.net/v/t39.30808-6/294426365_421359643344452_3251345208636597643_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Bgz6HLXi7hoAX-6vVS1&_nc_ht=scontent.fhnl1-1.fna&oh=00_AfDmPMejBQdj5sN7t8lSwDjbLI6P6PSVNU82X7J_CDi8mA&oe=65FEF09A",
+      "img/work/datahouse.png",
     startDate: "2022-07-04",
     endDate: "2022-08-05",
     summary:
@@ -133,7 +133,7 @@ const _WORK = [
     position: "Learning Assistant",
     website: "",
     logoURL:
-      "https://manoa.hawaii.edu/speakers/wp-content/uploads/logo-1-1030x1030.png",
+      "img/work/uhm.png",
     startDate: "2020-01-01",
     endDate: "2021-12-17",
     summary:
@@ -146,7 +146,7 @@ const _WORK = [
     position: "Teaching Assistant",
     website: "https://www.eng.hawaii.edu/",
     logoURL:
-      "https://scontent.fhnl1-1.fna.fbcdn.net/v/t39.30808-6/370583456_1018177509576285_92730607934660585_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9R9ZDDxgPboAX-wHbbm&_nc_ht=scontent.fhnl1-1.fna&oh=00_AfAHBUY-cB_WGaKhdS3amU9cvGZELM6fuvQu-WKG4_EEWA&oe=65FDB3F4",
+      "img/work/uhmcoe.jpg",
     startDate: "2020-08-01",
     endDate: "2020-12-18",
     summary:
