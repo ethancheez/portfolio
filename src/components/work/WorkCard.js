@@ -12,13 +12,13 @@ const WorkCard = (workObj) => {
     " " +
     startDate.getUTCFullYear() +
     " - " +
-    endDate.toLocaleString("en-US", { month: "short", timeZone: "UTC" }) +
+    (work.endDate.toLowerCase() === "present" ? "Present" : endDate.toLocaleString("en-US", { month: "short", timeZone: "UTC" })) +
     " " +
-    endDate.getUTCFullYear();
+    (work.endDate.toLowerCase() === "present" ? "" : endDate.getUTCFullYear());
 
   return (
     <Col>
-      <Card>
+      <Card style={{ height: "100%" }}>
         <Card.Img variant="top" src={work.logoURL} />
         <Card.Body>
           <Card.Title>{work.company}</Card.Title>
