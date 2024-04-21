@@ -52,6 +52,20 @@ const _BIO = {
 
 const _WORK = [
   {
+    _id: 8,
+    company: "Naval Information Warfare Center Pacific",
+    position: "Engineer",
+    website: "https://www.niwcpacific.navy.mil/",
+    logoURL:
+      "https://www.niwcpacific.navy.mil/portals/95/Images/Logos/Logo-NIWC-Pacific-White-Letters-250.png?ver=RHO04fsgKTtM6Pr2gXeQdA%3D%3D",
+    startDate: "2024-04-08",
+    endDate: "Present",
+    summary:
+      "",
+    skills: [
+    ],
+  },
+  {
     _id: 7,
     company: "Hawaii Space Flight Laboratory",
     position: "Graduate Research Assistant",
@@ -208,6 +222,10 @@ const _PROJECTS = [
 
 const _PAPERS = [
   {
+    title: "An Evaluation of Flight Software Platforms for Small Satellite Misisons",
+    pdfURL: "papers/An_Evaluation_of_Flight_Software_Platforms_For_Small_Satellite_Missions.pdf",
+    abstract: "Developing and implementing reliable flight software is time-consuming and challenging, particularly for small teams embarking on satellite missions. CubeSats have high failure rates at an average of 45% with no contact after deployment. Some of the causes of this failure statistically can be traced to software issues. Small teams often grapple with a crucial decision: whether to develop their flight software from the ground up, adapt partially completed software from previous missions, or attempt to utilize mature, pre-existing software. This paper aims to resonate with those who identify with these struggles and engage with those who have successfully navigated this path, deploying effective and robust flight software in space with limited resources and time. This paper summarizes existing flight software frameworks that are mature and have flight heritage for CubeSats and proposes attributes to help small teams better understand the capabilities of these software platforms.",
+  },{
     title: "Flight Software Architectures for Safe and Sustainable Missions",
     pdfURL: "papers/Flight_Software_Architectures_for_Safe_and_Sustainable_Missions.pdf",
     abstract: "Flight software implementation into satellites is critical for a mission’s success. This paper discusses the requirements for a reliable flight software framework and how current frameworks implement these standards. Ideally, a safe and sustainable framework must have modularity, portability, a small footprint, unit testing capabilities, a standardized packet protocol, and documentation. Of the existing frameworks analyzed, COSMOS and F Prime were implemented into the HyTI and Artemis CubeSat kit. Additionally, AES encryption was implemented and analyzed with the COSMOS framework and tested with flight hardware for the HyTI mission. Results show that cryptography does not affect the likelihood of packet loss. Since COSMOS was determined to not meet all of the flight software requirements defined by the ideal architecture, the framework will be improved after the delivery of HyTI.",
